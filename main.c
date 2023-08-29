@@ -1,8 +1,14 @@
 /*
-*   Description: Simple calculator program u
+*   Description: Simple calculator program 
 *   Date: 29/08/2023
 */
 #include <stdio.h>
+
+int addition(int a, int b){
+    return a + b;
+}
+
+
 
 int main(){
     int num1,num2,choice;
