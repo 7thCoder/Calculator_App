@@ -7,10 +7,10 @@
 int main(){
     int num1,num2,choice;
 
-    printf("Welcoome to the calculator app \n");
+    printf("Weloome to the calculator app \n");
     printf("Enter the first number: \n");
     scanf("%d",&num1);
-    printf("Enter the first number: \n");
+    printf("Enter the Second number: \n");
     scanf("%d",&num2);
 
     printf("Chose an operation: \n");
@@ -38,4 +38,6 @@ int main(){
         default:
          printf("Please make a choice");
     }
+
+    return 0;
 }
