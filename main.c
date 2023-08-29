@@ -35,13 +35,13 @@ int main(){
             printf ("The result of this addition is %d",addition(num1,num2));
             break;
         case 2:
-            subtraction(num1,num2);
+            // subtraction(num1,num2);
             break;
         case 3:
-            multiplication(num1,num2);
+            // multiplication(num1,num2);
             break;
         case 4:
-            division(num1,num2);
+            // division(num1,num2);
             break;
         
         default:
