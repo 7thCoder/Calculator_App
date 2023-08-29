@@ -10,6 +10,13 @@ int addition(int a, int b){
     return sum;
 }
 
+int multicatio(int a, int b){
+	int multiplication;
+	multiplication = a*b;
+	
+}
+
+
 
 
 int main(){
@@ -39,6 +46,7 @@ int main(){
             break;
         case 3:
             // multiplication(num1,num2);
+            printf("multiplication= %d\n", num1*num2);
             break;
         case 4:
             // division(num1,num2);
