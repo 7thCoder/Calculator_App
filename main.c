@@ -10,6 +10,12 @@ int addition(int a, int b){
     return sum;
 }
 
+int subtraction(int a, int b) {
+    int subs;
+    subs = a - b;
+    return subs;
+}
+
 
 
 int main(){
@@ -32,10 +38,10 @@ int main(){
     switch (choice){
         case 1 :
             
-            printf ("The result of this addition is %d",addition(num1,num2));
+            printf("The result of this addition is %d",addition(num1,num2));
             break;
         case 2:
-            // subtraction(num1,num2);
+            printf("The result of the subtraction is %d", subtraction(num1,num2));
             break;
         case 3:
             // multiplication(num1,num2);
