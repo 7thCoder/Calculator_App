@@ -5,7 +5,9 @@
 #include <stdio.h>
 
 int addition(int a, int b){
-    return a + b;
+    int sum;
+    sum = a + b;
+    return sum;
 }
 
 
@@ -29,7 +31,8 @@ int main(){
 
     switch (choice){
         case 1 :
-            addition(num1,num2);
+            
+            printf ("The result of this addition is %d",addition(num1,num2));
             break;
         case 2:
             subtraction(num1,num2);
