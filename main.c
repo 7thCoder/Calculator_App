@@ -9,23 +9,21 @@ int addition(int a, int b){
     sum = a + b;
     return sum;
 }
-
-<<<<<<< HEAD
-int multicatio(int a, int b){
+int multiplication(int a, int b){
 	int multiplication;
 	multiplication = a*b;
 	
 }
 
 
-=======
+
 int subtraction(int a, int b) {
     int subs;
     subs = a - b;
     return subs;
 }
 
->>>>>>> ed93e8bd0af046c2aa376c36c3721bb443b80b7d
+
 
 
 int main(){
@@ -55,7 +53,7 @@ int main(){
             break;
         case 3:
             // multiplication(num1,num2);
-            printf("multiplication= %d\n", num1*num2);
+            printf("The result of the multiplication is %d", multiplication(num1,num2));
             break;
         case 4:
             // division(num1,num2);
