@@ -9,21 +9,19 @@ int addition(int a, int b){
     sum = a + b;
     return sum;
 }
+
 int multiplication(int a, int b){
 	int multiplication;
 	multiplication = a*b;
+	return multiplication;
 	
 }
-
-
 
 int subtraction(int a, int b) {
     int subs;
     subs = a - b;
     return subs;
 }
-
-
 
 
 int main(){
@@ -53,7 +51,7 @@ int main(){
             break;
         case 3:
             // multiplication(num1,num2);
-            printf("The result of the multiplication is %d", multiplication(num1,num2));
+            printf("The result of this multiplication is %d\n",multiplication (num1,num2));
             break;
         case 4:
             // division(num1,num2);
